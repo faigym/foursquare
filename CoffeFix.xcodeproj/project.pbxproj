@@ -10,11 +10,12 @@
 		BDF3EEF21AF84DBB00DBDBF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF3EEF11AF84DBB00DBDBF4 /* main.m */; };
 		BDF3EEF51AF84DBB00DBDBF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF3EEF41AF84DBB00DBDBF4 /* AppDelegate.m */; };
 		BDF3EEF81AF84DBB00DBDBF4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF3EEF71AF84DBB00DBDBF4 /* MasterViewController.m */; };
-		BDF3EEFB1AF84DBB00DBDBF4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF3EEFA1AF84DBB00DBDBF4 /* DetailViewController.m */; };
 		BDF3EEFE1AF84DBB00DBDBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF3EEFC1AF84DBB00DBDBF4 /* Main.storyboard */; };
 		BDF3EF001AF84DBB00DBDBF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF3EEFF1AF84DBB00DBDBF4 /* Images.xcassets */; };
 		BDF3EF031AF84DBB00DBDBF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF3EF011AF84DBB00DBDBF4 /* LaunchScreen.xib */; };
 		BDF3EF0F1AF84DBB00DBDBF4 /* CoffeFixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF3EF0E1AF84DBB00DBDBF4 /* CoffeFixTests.m */; };
+		BDF3EF1A1AF856E000DBDBF4 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF3EF191AF856E000DBDBF4 /* Venue.m */; };
+		EF419DC1361558301A0F877F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFFACFE52A2D41486CB486C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BFFACFE52A2D41486CB486C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D3C8CCBD7167A9829F1BF7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BDF3EEEC1AF84DBB00DBDBF4 /* CoffeFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF3EEF01AF84DBB00DBDBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF3EEF11AF84DBB00DBDBF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,14 +38,15 @@
 		BDF3EEF41AF84DBB00DBDBF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BDF3EEF61AF84DBB00DBDBF4 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		BDF3EEF71AF84DBB00DBDBF4 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		BDF3EEF91AF84DBB00DBDBF4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		BDF3EEFA1AF84DBB00DBDBF4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BDF3EEFD1AF84DBB00DBDBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDF3EEFF1AF84DBB00DBDBF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDF3EF021AF84DBB00DBDBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BDF3EF081AF84DBB00DBDBF4 /* CoffeFixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeFixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF3EF0D1AF84DBB00DBDBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF3EF0E1AF84DBB00DBDBF4 /* CoffeFixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeFixTests.m; sourceTree = "<group>"; };
+		BDF3EF181AF856E000DBDBF4 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		BDF3EF191AF856E000DBDBF4 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		DD6168ADA5F0F95202D75FF6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF419DC1361558301A0F877F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD9FAE7397171A81F198EAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3C8CCBD7167A9829F1BF7 /* Pods.debug.xcconfig */,
+				DD6168ADA5F0F95202D75FF6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27D8E4F306F38BA79AEAA2A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFACFE52A2D41486CB486C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BDF3EEE31AF84DBB00DBDBF4 = {
 			isa = PBXGroup;
 			children = (
 				BDF3EEEE1AF84DBB00DBDBF4 /* CoffeFix */,
 				BDF3EF0B1AF84DBB00DBDBF4 /* CoffeFixTests */,
 				BDF3EEED1AF84DBB00DBDBF4 /* Products */,
+				0CD9FAE7397171A81F198EAF /* Pods */,
+				27D8E4F306F38BA79AEAA2A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +112,8 @@
 				BDF3EEF41AF84DBB00DBDBF4 /* AppDelegate.m */,
 				BDF3EEF61AF84DBB00DBDBF4 /* MasterViewController.h */,
 				BDF3EEF71AF84DBB00DBDBF4 /* MasterViewController.m */,
-				BDF3EEF91AF84DBB00DBDBF4 /* DetailViewController.h */,
-				BDF3EEFA1AF84DBB00DBDBF4 /* DetailViewController.m */,
+				BDF3EF181AF856E000DBDBF4 /* Venue.h */,
+				BDF3EF191AF856E000DBDBF4 /* Venue.m */,
 				BDF3EEFC1AF84DBB00DBDBF4 /* Main.storyboard */,
 				BDF3EEFF1AF84DBB00DBDBF4 /* Images.xcassets */,
 				BDF3EF011AF84DBB00DBDBF4 /* LaunchScreen.xib */,
@@ -131,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDF3EF121AF84DBB00DBDBF4 /* Build configuration list for PBXNativeTarget "CoffeFix" */;
 			buildPhases = (
+				6D98B50A13F21A5F1ED56D0A /* Check Pods Manifest.lock */,
 				BDF3EEE81AF84DBB00DBDBF4 /* Sources */,
 				BDF3EEE91AF84DBB00DBDBF4 /* Frameworks */,
 				BDF3EEEA1AF84DBB00DBDBF4 /* Resources */,
+				6BAB7CD0F92C5416DD67DDD5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,15 +245,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BAB7CD0F92C5416DD67DDD5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D98B50A13F21A5F1ED56D0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDF3EEE81AF84DBB00DBDBF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BDF3EEF51AF84DBB00DBDBF4 /* AppDelegate.m in Sources */,
+				BDF3EF1A1AF856E000DBDBF4 /* Venue.m in Sources */,
 				BDF3EEF81AF84DBB00DBDBF4 /* MasterViewController.m in Sources */,
 				BDF3EEF21AF84DBB00DBDBF4 /* main.m in Sources */,
-				BDF3EEFB1AF84DBB00DBDBF4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +406,7 @@
 		};
 		BDF3EF131AF84DBB00DBDBF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D3C8CCBD7167A9829F1BF7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoffeFix/Info.plist;
@@ -357,6 +417,7 @@
 		};
 		BDF3EF141AF84DBB00DBDBF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6168ADA5F0F95202D75FF6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoffeFix/Info.plist;
@@ -418,6 +479,7 @@
 				BDF3EF141AF84DBB00DBDBF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDF3EF151AF84DBB00DBDBF4 /* Build configuration list for PBXNativeTarget "CoffeFixTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +488,7 @@
 				BDF3EF171AF84DBB00DBDBF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
